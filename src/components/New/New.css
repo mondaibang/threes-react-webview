@@ -1,0 +1,23 @@
+.game .new {
+    background: #d0e6df;
+    box-shadow: 0 8px #b6d9d9;
+    font-style: italic;
+    height: 40px;
+    line-height: 40px;
+    left: -130px;
+    position: absolute;
+    text-align: center;
+    text-transform: lowercase;
+    top: 152px;
+    width: 108px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.game .new:hover {
+    background: #999;
+    box-shadow: 0 8px #777;
+    color: #FFF;
+    cursor: pointer;
+}

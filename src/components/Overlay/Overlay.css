@@ -1,0 +1,47 @@
+.overlay {
+    background: rgba(0,0,0,.5);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.endgame {
+    background: #fafafa;
+    color: #000;
+    height: 220px;
+    width: 420px;
+    margin-left: -210px;
+    margin-top: -110px;
+    overflow: hidden;
+    padding: 28px;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 50%;
+    z-index: 1000;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.endgame .score-intro strong {
+     color: #fa0; 
+}
+
+.endgame .score-intro {
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.endgame .score {
+    font-size: 72px;
+}

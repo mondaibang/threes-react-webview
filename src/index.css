@@ -1,0 +1,36 @@
+body, html {
+    color: #777E8C;
+    font-family: Nunito,sans-serif;
+}
+
+.game {
+    margin: 0 auto;
+    max-width: 400px;
+    position: relative;
+}
+
+.game .next .tile {
+    height: 77px;
+    position: static!important;
+    width: 56px;
+    line-height: 77px;
+    border-radius: 10px;
+}
+
+.tile.red {
+    background: #ff6680;
+    box-shadow: 0 8px #ff002b;
+    color: #FFF;
+}
+
+.tile.number {
+    background: #FFF;
+    box-shadow: 0 8px #fc6;
+    color: #000;
+}
+
+.tile.blue {
+    background: #6cf;
+    box-shadow: 0 8px #0af;
+    color: #FFF;
+}

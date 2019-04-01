@@ -1,0 +1,17 @@
+.game .next {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #d0e6df;
+    left: -130px;
+    padding: 12px 36px 26px 14px;
+    position: absolute;
+    top: 0;
+}
+
+.game .next .title {
+    font-style: italic;
+    font-weight: 400;
+    margin: 0 0 4px 2px;
+    text-transform: lowercase;
+}

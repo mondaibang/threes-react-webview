@@ -1,0 +1,25 @@
+.game .board {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #d0e6df;
+    overflow: hidden;
+    padding: 12px 16px;
+}
+
+.row {
+    overflow: hidden;
+    text-align: center;
+}
+
+.game .board .row .tile-container {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #b6d9d9;
+    box-shadow: 0 8px #b6d9d9;
+    float: left;
+    height: 110px;
+    margin: 10px 6px;
+    width: 80px;
+}
